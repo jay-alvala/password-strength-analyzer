@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Password Strength Analyzer</h1>
+
+        <p>Your cybersecurity password checker</p>
+        <div class="input-section">
+            <input type="password" id= "password-input"  placeholder="Enter your password" class = "password-input">
+            <button id="toggle-password" class="toggle-btn">👁</button>
+        </div>
+        <div class="strength-section">
+
+            <p id="strength-text">Strength: Weak</p>
+
+            <div class="strength-bar">
+                <div class="strength-fill"></div>
+            </div>x
+
+        </div>
+        <div class="requirements">
+
+            <p id="length">• 8+ characters</p>
+            <p id="uppercase">• Uppercase</p>
+            <p id="lowercase">• Lowercase</p>
+            <p id="number">• Number</p>
+            <p id="special">• Special character</p>
+
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
