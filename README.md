@@ -25,6 +25,10 @@ The goal of this project was to learn web development fundamentals while buildin
 * Smooth animations and transitions
 * Instant client-side validation
 
+## Preview
+
+![Password Strength Analyzer](assets/screenshot.png)
+
 ## Technologies Used
 
 ### Frontend
