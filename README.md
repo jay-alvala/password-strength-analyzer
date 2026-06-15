@@ -27,7 +27,7 @@ The goal of this project was to learn web development fundamentals while buildin
 
 ## Preview
 
-![Password Strength Analyzer](assets/screenshot.png)
+![Password Strength Analyzer](assets/Screenshot.png)
 
 ## Technologies Used
 
